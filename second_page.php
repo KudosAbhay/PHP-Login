@@ -43,8 +43,9 @@ header("Refresh: 5; url=$page");
     <div class="row">
       <div class="col-md-4 col-md-offset-4 well">
         <p>This page will refresh after every 5 seconds <br />and still retain these Session variables</p>
-        <p><?php echo $name; ?></p>
-        <p><?php echo $email; ?></p>
+        <p>Welcome</p>
+        Your Username is:<p><?php echo $name; ?></p>
+        Your Email ID is:<p><?php echo $email; ?></p>
       </div>
     </div>
   </div>
